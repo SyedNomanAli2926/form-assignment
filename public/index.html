@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Form Assignment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+
+        <!-- part 1 
+    header section -->
+
+        
+    <div class="container headsection">
+       
+        <div><img src="images/logonew.PNG" alt=""></div>
+        <div class="heading1">board of intermediate education , karachi</div>
+        
+    </div>
+
+    <div class="headsectiona">
+        <div class="exam">examination form for h.s.c part 1 commerce group </div>
+        <div class="for">for private candidates annual 20 <input class="firstinput"   type="text" name="" id="abc"></div>
+        
+    </div>
+
+     <!-- part 1 head section end here  -->
+     
+
+     <!-- commerce heading -->
+
+
+     <h2 class="commerce container">commerce private group  <span class="f21">f21</span></h2>
+
+          <!-- end commerce heading -->
+
+
+    <!-- section a start here -->
+
+    <div class="sectiona container">
+        
+        <div class="forpicture">
+            
+            <h2 class="cp">CP-XI</h2>
+            <div class="upload py-5"><p>Please upload your picture here.</p> <input type="file" name="" id="uploadfile"></div>
+            
+        </div>
+        
+
+        <div class="foroffice px-3">
+
+            <p>ROLL NO.</p>
+            <p>FOR OFFICE USE</p>
+            <p>REGISTRATION NO.</p>
+            <P>(YEAR)</P>
+
+        </div>
+
+    </div>
+
+    <!-- section a end here -->
+
+    <!-- section b for input -->
+
+    <div class="sectionb my-5 container"> 
+        
+        <div>
+           <div> NAME: <input type="text"  class="name mx-5"  id="name"></div>
+           
+           <div>(IN BLOCK LETTERS)</div>
+        </div>
+        
+        <div>
+            <div>   FATHER'S NAME: <input type="text"  class="fathername mx-5"  id="fathername"></div>
+            <div>(IN BLOCK LETTERS)</div>
+        </div>
+        
+        <div class="bio">
+            
+            <div>DATE OF BIRTH : <input type="date"  id="date"></div>
+
+            <div class="mx-1">NATIONALITY : <input type="text"  id="nation"></div>
+            
+            <div class="mx-1">MALE/FEMALE : <input type="text" id="gender" ></div>
+            
+            <div>RELIGION : <input type="text" id="religion" ></div>
+            
+            
+            
+        </div>
+        
+        <div>RESIDENTIAL ADDRESS : <input type="text" class="residential"  id="address"></div>
+        <input type="text" class="residential2 my-1" id="">
+        
+        
+        <div class="container contactSection">
+        
+            <div class="cnic my-2 ">  CNIC:  <input type="text" class="cnicnumber mx-2" id="cnic"> </div>
+            <br>
+            
+            <div class="contact my-2">  CONTACT #<input type="text" class="contactnumber mx-2" id="number"> </div>
+            
+        </div>
+
+        <div class="lastsection">
+            
+            <div>MARK OF IDENTIFICATION: <input type="text" class="marks mx-2" id="mark"></div> 
+            
+            <div> POST CODE: <input type="text" id="postcode"></div>
+            
+        </div>
+        
+
+        
+    </div>
+    
+
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button onclick="collectData()" class="btn btn-dark" type="button">Submit</button>
+
+      </div>
+
+
+    <div class="container">
+        <p id="alldata"></p>
+        
+        <p class="annualyear" id="para"></p>
+        <p id="showuploadfile"></p>
+        <p id="paraone"></p>
+        <p id="paratwo"></p>
+        <p id="showdate"></p>
+        <p id="showNation"></p>
+        <p id="showgender"></p>
+        <p id="showreligion"></p>
+        <p id="showaddress"></p>
+        <p id="showcnic"></p>
+        <p id="shownumber"></p>
+         <p id="showmark"></p>
+         <p id="showpostcode"></p>
+</div>
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- <button onclick="collectData()">submit</button> -->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+-->
+<script src="app.js"></script>
+</body>
+</html>

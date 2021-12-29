@@ -1,0 +1,123 @@
+/* body{
+    background-color: blanchedalmond;
+} */
+.heading1{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    /* background-color: crimson; */
+    margin-left: 50px;
+}
+.headsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: chocolate; */
+    position: relative;
+}
+
+.headsectiona{
+    /* background-color: cyan; */
+    position: absolute;
+    top: 90px;
+    margin-left: 700px;
+}
+.exam{
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.for{
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+.firstinput{
+    width: 10%;
+}
+
+/* part 1 head section end here */
+
+
+/* <!-- commerce heading --> */
+
+.commerce{
+    background-color:black;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 600px;
+    width: 40%;
+}
+.f21{
+    background-color:white;
+    color: black;
+    margin-left: 100px;
+}
+/* 
+<!--end commerce heading --> */
+
+/* 
+section a start here */
+.cp{
+    font-weight: bold;
+}
+.upload{
+    border: 2px black solid;
+}
+.foroffice{
+    border: 2px black solid;
+}
+.sectiona{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: blanchedalmond; */
+}
+
+/* section a end here */
+
+/* section b for input */
+
+
+.name{
+    width: 80%;
+}
+
+.fathername{
+    width: 73%;
+}
+
+.bio{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.residential{
+    width: 75%;
+    margin-top: 10px;
+}
+.residential2{
+    width: 90%;
+}
+
+.contactSection{
+    display: flex;
+}
+
+.cnicnumber{
+    width: 500px;
+}
+
+.contactnumber{
+    width: 500px;
+}
+
+.lastsection{
+    display: flex;
+}
+
+.marks{
+    width: 600px;
+}
